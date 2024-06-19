@@ -9,7 +9,7 @@ dotenv.config({path : './config/config.env'})
 
 const app = express();
 const corsOptions = {
-    origin : 'http://localhost:3000',
+    origin : 'https://dazzling-sprinkles-6a38c5.netlify.app/',
     credentials : true
 }
 app.use(express.json());
